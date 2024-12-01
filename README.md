@@ -15,9 +15,8 @@ La proporción de bases GC es una métrica importante para evaluar la estabilida
 # Conversión de ADN a ARN
 
 El código incluye un paso para transcribir ADN en ARN, un proceso necesario para analizar la expresión génica y simular lo que ocurre en organismos vivos durante la síntesis de proteínas.
-Generación de informes organizados en un archivo de salida
 
-El código automatiza el almacenamiento de los resultados (nombre de la proteína, conteo de nucleótidos, contenido de GC, secuencia de ARN) en un archivo llamado resultado.txt. Esto facilita la revisión y análisis de múltiples secuencias sin necesidad de procesar manualmente los datos.
+
 
 # Usar el formato correcto 
 
