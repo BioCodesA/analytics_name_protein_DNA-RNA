@@ -1,4 +1,4 @@
- ####### Anlitycs_name_protein_DNA/RNA #######
+# Anlitycs_name_protein_DNA/RNA #
 
 ![image](https://github.com/user-attachments/assets/c36b0265-164e-4b29-aa56-c88489b9ca20)
 
