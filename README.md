@@ -8,5 +8,7 @@ los resultados serán agragados a un archivo.txt
 El formato del archivo= .txt
 
 ¿DONDE ENCONTRAR ARCHIVOS ?
+
 podrémos obtener archivos en la pagina de NBCI con secuencias de DNA de bacterias u otros oraganismos con en el formato adecuado  para ser procesado correctamente.
+
 Allí se prodrá descargar el archivo en formato  FASTANucleotide
