@@ -4,8 +4,7 @@
 
 Este código está destinado al análisis de secuencias de ADN, para obtener el nombre de la proteína con un conteo de nucleótidos, y porcentaje de GC  por cada secuencia y  también la secuancia RNA. El código automatiza el almacenamiento de los resultados (nombre de la proteína, conteo de nucleótidos, contenido de GC, secuencia de ARN) en un archivo llamado resultado.txt. 
 
-# Descripción de los problemas que el código resolverá
-Identificación de proteínas a partir de secuencias de ADN
+# Identificación de proteínas a partir de secuencias de ADN
 
 El código aborda la necesidad de traducir secuencias de ADN en proteínas funcionales. Esto es esencial en estudios de biología molecular para entender cómo los genes codifican proteínas específicas.
 
