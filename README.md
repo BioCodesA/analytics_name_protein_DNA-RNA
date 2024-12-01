@@ -9,6 +9,6 @@ El formato del archivo= .txt
 
 ¿DONDE ENCONTRAR ARCHIVOS ?
 
-podrémos obtener archivos en la pagina de NBCI con secuencias de DNA de bacterias u otros oraganismos con en el formato adecuado  para ser procesado correctamente.
+podrémos obtener archivos en la pagina de NBCI con secuencias de DNA de bacterias u otros oraganismos con en el formato adecuado  para ser procesado correctamente código.
 
 Allí se prodrá descargar el archivo en formato  FASTANucleotide
