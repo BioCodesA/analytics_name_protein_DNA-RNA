@@ -78,7 +78,7 @@ def procesar(sequence):
         print(RNA(sequence))
         print("--" * 60)  # lo pongo con el objetivo de separar visualmente el resultado para cada secuencia
 
-    with open("Resultados.txt", "w") as out_file:
+    with open("Resultados.txt", "w") as out_file:      # me abre un archivo externo con el nombre de Resultados.txt, para guardar los resultados 
         for proteina, sequence in almacenar.items():
             total, GC_content = contenido(sequence)
             rna = RNA(sequence)
@@ -91,4 +91,5 @@ def procesar(sequence):
     print("Resultados guardados en 'Resultados.txt'")
 
 
-print(procesar("sequence (Staphylococcus aureus subsp. aureus).txt"))
+print(procesar("sequence (Staphylococcus aureus subsp. aureus).txt"))  # ingreso el archivo que quiero que procese.
+# puedes hacerlo con el mismo archivo o dercargar otro con las especificaciones dadas en el apartado para el archivo en README.
