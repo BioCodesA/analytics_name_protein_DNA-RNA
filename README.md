@@ -6,7 +6,7 @@ Este código está destinado al análisis de secuencias de ADN, para obtener el 
 
 # Identificación de proteínas a partir de secuencias de ADN
 
-El código aborda la necesidad de traducir secuencias de ADN en proteínas funcionales. Esto es esencial en estudios de biología molecular para entender cómo los genes codifican proteínas específicas.
+El código aborda la necesidad de traducir secuencias de ADN para conocer el nombre de las proteínas funcionales. Esto es esencial en estudios de biología molecular para entender cómo los genes codifican proteínas específicas.
 
 # Cálculo del contenido de GC en cada secuencia
 
