@@ -1,21 +1,19 @@
-"""se define la funcion para contar nucleoticos """
+"""Se define la función para contar nucleóticos """
 import re
 
-""" Divide una secuencia larga en varias líneas más cortas.
+"""Definimos la función que divide una secuencia larga en varias líneas más cortas.
    Cada línea tendrá un máximo de 60 caracteres """
 
 
-def formato(sequence, line_length=60):
-    # Creamos una lista donde cada elemento es una parte de la secuencia de tamaño `line_length`.
+def formato(sequence, line_length=60):           # esto lo hago para organizar y visualizar mejor la secuancia, el que use el código puede cambiar a su gusto la longitud de cada linea, cambiando el número en line_length
     lineas = []
-    for i in range(0, len(sequence), line_length):  # Empezamos desde 0, saltamos de `line_length` en `line_length`.
-        lineas.append(sequence[i:i + line_length])  # Tomamos una parte de la secuencia de tamaño `line_length`.
+    for i in range(0, len(sequence), line_length):  
+        lineas.append(sequence[i:i + line_length])  
 
-    # Unimos todas las líneas en una sola cadena separadas por saltos de línea.
-    return "\n".join(lineas)
+    return "\n".join(lineas)    # Unimos todas las líneas en una sola cadena separadas por saltos de línea.
 
 
-"""la siguente función se define  para contar nucleoticos """
+"""La siguente función se define  para contar nucleóticos y GC"""
 
 
 def contenido(sequence):
@@ -42,12 +40,11 @@ def RNA(sequence):
 
 pass
 
-""" La siguiente función extrae el nombre de la proteína de una línea en formato FASTA.
-    Busca el texto entre '[protein=' y ']'."""
+""" La siguiente función extrae el nombre de la proteína de una línea ya que busca el texto entre '[protein=' y ']'."""
 
 
 def protein_name(line):
-    match = re.search("\[protein=(.+?)\]", line)  # que significa .+?
+    match = re.search("\[protein=(.+?)\]", line)  #.+? asegura que se capture solo el nombre de la primera proteína dentro del patrón [protein=...]
     return f"Proteína:  {match.group(1)}"
 
 
@@ -79,7 +76,7 @@ def procesar(sequence):
         print(f"Número de nucleotidos {total}")
         print(f"Contenido GC:{GC_content}")
         print(RNA(sequence))
-        print("--" * 60)  # lo pongo con el objetivo de separar visualmente cada secuencia
+        print("--" * 60)  # lo pongo con el objetivo de separar visualmente el resultado para cada secuencia
 
     with open("Resultados.txt", "w") as out_file:
         for proteina, sequence in almacenar.items():
